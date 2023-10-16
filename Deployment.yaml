@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: sagar2610
-        image: your-image-name:tag
+        image: sagar2610/newimage1
