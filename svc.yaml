@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sagar2610-service
+spec:
+  selector:
+    app: newimage1
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
